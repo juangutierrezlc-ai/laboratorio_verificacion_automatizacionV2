@@ -1,9 +1,10 @@
 # Entrega · Duelo de herramientas
 
-**Equipo:** ______________________  
-**Integrantes:** ______________________  
-**Repositorio:** ______________________  
-**Herramienta que nos tocó:** ☐ Selenium + Mocha &nbsp; ☐ Cypress &nbsp; ☐ Playwright + Cucumber  
+**Equipo:** ______cypress________________  
+**Integrantes:** ________julian ramirez - juan jose gutierrez
+ 
+**Repositorio:** ___https://github.com/juangutierrezlc-ai/laboratorio_verificacion_automatizacionV2/blob/main/kits/cypress/cypress/e2e/duelo.cy.js___________________  
+**Herramienta que nos tocó:** ☐ Selenium + Mocha &nbsp; x Cypress &nbsp; ☐ Playwright + Cucumber  
 **Escenario que nos tocó:** ______________________
 
 > Completa este archivo a medida que avanzas (cada sección dice en qué parte de la guía se llena).
@@ -42,7 +43,9 @@ que vienen con él. Para cada tarea que alguien debe cumplir en una prueba de in
 **Con esta tabla:** ¿la herramienta que nos tocó es una *librería*, un *framework*, o una librería con piezas que
 tuvimos que armar nosotros? Respondan en dos frases con la idea «la librería la llamas tú; el framework te llama a ti».
 
-> _Respuesta:_
+> _Respuesta: cypress es un framework. minetras que una libreria la llamas tu como programador invocando sus funciones el desarrollo del codigo cuando necestas resolver un problema en especifico , cypreess toma el control total en un entorno de ejecucion, del navegador y del ciclo de vida de los test, encargose de agregar en su propia estrutura en tu codigo o dentro de tu codigo.
+
+en cypress, la herrmienta sola se encarga de manera automatica de abrir y cerra el nevegadro y esperar a que los elementos existan, reintentar las comprobaciones pendietes, ejecutar y contabilizar los resultados de los test y registrar la evidencia en caso de fallas; por otra parte , la verificacion de valores mostrando <<esperando>> y <<recibido>> la realiza una libreria integrada (chai) en las linear de afirmacion dentro del archivo de prueba minetras que el leer el texto de un alert() del navegador requiere de codigo nuestro mediante la escucha del evento dentro del scrip de prueba.
 
 ## 2. Bitácora de las historias (Partes 2 y 3)
 

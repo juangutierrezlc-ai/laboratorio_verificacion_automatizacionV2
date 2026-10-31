@@ -1,0 +1,49 @@
+{
+  "esquema": 1,
+  "equipo": "Cypress",
+  "herramienta": "playwright",
+  "nombre": "Playwright Test (control)",
+  "fecha": "2026-10-31T02:04:56.461Z",
+  "entorno": {
+    "node": "v24.15.0",
+    "sistema": "win32 x64"
+  },
+  "corridas": {
+    "total": 10,
+    "completas": 10,
+    "conFallos": 0,
+    "segundos": [
+      4.03,
+      4.31,
+      4.29,
+      4.71,
+      4.92,
+      4.96,
+      5.43,
+      5.23,
+      5.01,
+      4.73
+    ],
+    "mediana": 4.83,
+    "minimo": 4.03,
+    "maximo": 5.43
+  },
+  "pruebas": {
+    "esperadas": 3,
+    "pasanEnLaUltimaCorrida": 3
+  },
+  "codigo": {
+    "pruebas": 34,
+    "soporte": 14,
+    "total": 48
+  },
+  "paquetes": {
+    "@playwright/test": {
+      "instalada": "1.64.1",
+      "ultimaVersion": "1.64.1",
+      "ultimaPublicacion": "2026-10-14T11:58:13.696Z",
+      "dias": 16
+    }
+  },
+  "autoinforme": null
+}

@@ -1,0 +1,72 @@
+{
+  "esquema": 1,
+  "equipo": "Cypress",
+  "herramienta": "cypress",
+  "nombre": "Cypress",
+  "fecha": "2026-10-31T02:02:00.915Z",
+  "entorno": {
+    "node": "v24.15.0",
+    "sistema": "win32 x64"
+  },
+  "corridas": {
+    "total": 10,
+    "completas": 10,
+    "conFallos": 0,
+    "segundos": [
+      16.6,
+      17.85,
+      17.7,
+      18.25,
+      18.05,
+      18.19,
+      18.75,
+      19.12,
+      19.78,
+      17.92
+    ],
+    "mediana": 18.12,
+    "minimo": 16.6,
+    "maximo": 19.78
+  },
+  "pruebas": {
+    "esperadas": 3,
+    "pasanEnLaUltimaCorrida": 3
+  },
+  "codigo": {
+    "pruebas": 27,
+    "soporte": 11,
+    "total": 38
+  },
+  "paquetes": {
+    "cypress": {
+      "instalada": "16.2.0",
+      "ultimaVersion": "16.2.1",
+      "ultimaPublicacion": "2026-10-28T14:20:32.633Z",
+      "dias": 2
+    }
+  },
+  "autoinforme": {
+    "equipo": "Cypress",
+    "integrantes": [
+      "julian ramirez espinosa",
+      "juan jose gutierrez"
+    ],
+    "escenario": "Esceneario 6",
+    "usoDeIA": "Consultas",
+    "minutos": {
+      "instalacion": 20,
+      "ca2": 30,
+      "ca3": 11
+    },
+    "diagnostico": {
+      "diceQueFallo": true,
+      "esperadoYRecibido": true,
+      "lineaDeLaPrueba": true,
+      "capturaOVideo": true,
+      "trazaOInforme": false
+    },
+    "notas": "Fallo a propósito: have.length 8 -> 9 en US-01 CA1 (1 failing, 2 passing). diceQueFallo: herramienta sola; el AssertionError de Cypress nombra la prueba y la comprobación ('Not enough elements found'). esperadoYRecibido: herramienta sola; 'Found 8, expected 9' y el diff -8/+9. lineaDeLaPrueba: herramienta sola; el stack señala duelo.cy.js:13:17. capturaOVideo: herramienta sola; cypress run guarda una captura al fallar (cypress/screenshots/duelo.cy.js/...(failed).png, 1262x624). No hubo video (Video: false). trazaOInforme: no quedó; en cypress run no se genera traza ni informe. Para repasar paso a paso hay que volver a correr con cypress open (o usar Test Replay de Cypress Cloud, que es un servicio en la nube).",
+    "puntosDiagnostico": 4,
+    "sinResponder": 0
+  }
+}
